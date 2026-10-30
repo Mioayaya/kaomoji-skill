@@ -1,0 +1,236 @@
+{
+  "version": 1,
+  "note": "程序读取用。人类阅读请用 SKILL.md 速查表或 reference/kaomoji.md。tone: bright 轻快 / soft 温和 / strong 情绪重 / deadpan 冷淡得意 / low 低能量",
+  "moods": {
+    "happy": {
+      "label": "开心",
+      "aliases": ["高兴", "激动", "快乐", "棒"],
+      "tone": "bright",
+      "entries": [
+        { "text": "(≧▽≦)", "tone": "strong" },
+        { "text": "(๑>ᴗ<๑)", "tone": "bright" },
+        { "text": "(´｡• ᵕ •｡｀)", "tone": "soft" },
+        { "text": "(*´▽｀*)", "tone": "soft" },
+        { "text": "o(^▽^)o", "tone": "bright" },
+        { "text": "ヾ(＾∇＾)ﾉ", "tone": "bright" },
+        { "text": "(●ˊωˋ●)", "tone": "soft" },
+        { "text": "ヽ(・∀・)ﾉ", "tone": "bright" },
+        { "text": "(๑˃ᴗ˂)ﻭ", "tone": "bright" },
+        { "text": "٩(◕‿◕｡)۶", "tone": "bright" },
+        { "text": "(≧∇≦)ﾉ", "tone": "strong" },
+        { "text": "(｡◕‿◕｡)", "tone": "soft" },
+        { "text": "(*^_^*)", "tone": "soft" },
+        { "text": "(´∀｀)♡", "tone": "soft" }
+      ]
+    },
+    "agree": {
+      "label": "赞同 / 干劲",
+      "aliases": ["加油", "鼓励", "支持", "可以", "棒棒哒"],
+      "tone": "strong",
+      "entries": [
+        { "text": "(๑•̀ㅂ•́)و✧", "tone": "strong" },
+        { "text": "(ง •̀_•́)ง", "tone": "strong" },
+        { "text": "٩(ˊᗜˋ*)و", "tone": "bright" },
+        { "text": "(•̀ᴗ•́)و ̑̑", "tone": "strong" },
+        { "text": "(๑•̀ㅁ•́ฅ)", "tone": "bright" },
+        { "text": "(￣^￣)ゞ", "tone": "deadpan" },
+        { "text": "(￣ω￣)/", "tone": "bright" },
+        { "text": "o(≧o≦)o", "tone": "strong" },
+        { "text": "ᕦ(ò_óˇ)ᕤ", "tone": "strong" },
+        { "text": "٩(๑•̀ω•́๑)۶", "tone": "strong" },
+        { "text": "(๑و•̀ω•́)و", "tone": "strong" }
+      ]
+    },
+    "smile": {
+      "label": "微笑 / 友好",
+      "aliases": ["友好", "愉快", "打招呼", "好的"],
+      "tone": "soft",
+      "entries": [
+        { "text": "(＾▽＾)", "tone": "soft" },
+        { "text": "(^-^)", "tone": "soft" },
+        { "text": "(´▽｀ʃ♡ƪ)", "tone": "soft" },
+        { "text": "( ˘▽˘)っ", "tone": "soft" },
+        { "text": "(｡･ω･｡)ﾉ", "tone": "soft" },
+        { "text": "(*ﾟ▽ﾟ)ノ", "tone": "bright" },
+        { "text": "(　＾∀＾)", "tone": "soft" },
+        { "text": "(◍•ᴗ•◍)", "tone": "soft" },
+        { "text": "(u‿ฺu✿ฺ)", "tone": "soft" },
+        { "text": "(●'◡'●)", "tone": "soft" }
+      ]
+    },
+    "sad": {
+      "label": "难过 / 沮丧",
+      "aliases": ["伤心", "难过", "哭泣", "心碎", "绝望", "痛苦", "孤单"],
+      "tone": "strong",
+      "entries": [
+        { "text": "(╥﹏╥)", "tone": "strong" },
+        { "text": "(｡•́︿•̀｡)", "tone": "low" },
+        { "text": "(>_<)", "tone": "strong" },
+        { "text": "(╯︵╰,)", "tone": "strong" },
+        { "text": "(>_<｡)", "tone": "strong" },
+        { "text": "(´;ω;｀)", "tone": "strong" },
+        { "text": "(T_T)", "tone": "strong" },
+        { "text": "(个_个)", "tone": "low" },
+        { "text": "(｡╯︵╰｡)", "tone": "strong" }
+      ]
+    },
+    "angry": {
+      "label": "生气 / 吐槽",
+      "aliases": ["生气", "吐槽", "不满", "烦"],
+      "tone": "strong",
+      "entries": [
+        { "text": "(╬￣皿￣)", "tone": "strong" },
+        { "text": "(＃￣ω￣)", "tone": "strong" },
+        { "text": "(￣ヘ￣)", "tone": "deadpan" },
+        { "text": "(눈_눈)", "tone": "deadpan" },
+        { "text": "(╯°□°）╯︵ ┻━┻", "tone": "strong", "caution": true },
+        { "text": "(¬_¬)", "tone": "deadpan" },
+        { "text": "(；一_一)", "tone": "low" }
+      ]
+    },
+    "helpless": {
+      "label": "无奈 / 摊手",
+      "aliases": ["无奈", "摊手", "没办法", "随便吧"],
+      "tone": "low",
+      "entries": [
+        { "text": "(´･ω･｀)", "tone": "low" },
+        { "text": "╮(╯▽╰)╭", "tone": "bright" },
+        { "text": "(ㆆ_ㆆ)", "tone": "deadpan" },
+        { "text": "( ¯_(ツ)_/¯ )", "tone": "bright" },
+        { "text": "(´□｀)", "tone": "low" },
+        { "text": "(－_－)", "tone": "low" },
+        { "text": "( ˘･з･)", "tone": "low" },
+        { "text": "(￣▽￣)\"", "tone": "bright" },
+        { "text": "(´･_･｀)", "tone": "low" },
+        { "text": "(・_・;)", "tone": "bright" }
+      ]
+    },
+    "awkward": {
+      "label": "尴尬 / 抱歉",
+      "aliases": ["抱歉", "对不起", "不好意思", "尴尬", "手滑"],
+      "tone": "bright",
+      "entries": [
+        { "text": "(；´д｀)ゞ", "tone": "bright" },
+        { "text": "(＞﹏＜)", "tone": "strong" },
+        { "text": "(´-ω-｀)", "tone": "low" },
+        { "text": "(⌒_⌒;)", "tone": "bright" },
+        { "text": "(ーー;)", "tone": "bright" },
+        { "text": "(￣▽￣)ゞ", "tone": "bright" },
+        { "text": "(,,•́ . •̀,,)", "tone": "soft" },
+        { "text": "m(_ _)m", "tone": "strong" }
+      ]
+    },
+    "thinking": {
+      "label": "思考 / 疑惑",
+      "aliases": ["思考", "疑惑", "不懂", "为什么", "犹豫"],
+      "tone": "bright",
+      "entries": [
+        { "text": "(・_・?)", "tone": "bright" },
+        { "text": "(￣～￣)", "tone": "bright" },
+        { "text": "(＊´∀｀)ﾉ", "tone": "bright" },
+        { "text": "(・ω・)ノ", "tone": "bright" },
+        { "text": "(ﾟДﾟ≡ﾟДﾟ)?", "tone": "strong" },
+        { "text": "(°ロ°)", "tone": "strong" },
+        { "text": "(・へ・)", "tone": "bright" },
+        { "text": "(・・;)ゞ", "tone": "bright" },
+        { "text": "(￣ー￣)｡oO", "tone": "deadpan" }
+      ]
+    },
+    "shy": {
+      "label": "害羞",
+      "aliases": ["害羞", "不好意思", "捂脸"],
+      "tone": "soft",
+      "entries": [
+        { "text": "(*/ω＼*)", "tone": "strong" },
+        { "text": "(〃ω〃)", "tone": "soft" },
+        { "text": "(*ﾉωﾉ)", "tone": "strong" },
+        { "text": "(⁄ ⁄•⁄ω⁄•⁄ ⁄)", "tone": "strong" },
+        { "text": "(っ˘ω˘ς )", "tone": "soft" },
+        { "text": "(〃￣ω￣〃)", "tone": "soft" },
+        { "text": "(>///<)", "tone": "strong" },
+        { "text": "(*´ｪ｀*)", "tone": "soft" }
+      ]
+    },
+    "surprised": {
+      "label": "惊讶",
+      "aliases": ["惊讶", "震惊", "意外", "没想到"],
+      "tone": "strong",
+      "entries": [
+        { "text": "(°Д°)", "tone": "strong" },
+        { "text": "(⊙_⊙)", "tone": "bright" },
+        { "text": "(⊙o⊙)", "tone": "bright" },
+        { "text": "Σ(っ °Д °;)っ", "tone": "strong" },
+        { "text": "(；ﾟДﾟ)", "tone": "strong" },
+        { "text": "w(°ｏ°)w", "tone": "strong" },
+        { "text": "(ﾟロﾟ)", "tone": "strong" },
+        { "text": "((((；ﾟДﾟ))))", "tone": "strong", "caution": true }
+      ]
+    },
+    "comfort": {
+      "label": "安慰 / 共情",
+      "aliases": ["安慰", "共情", "理解", "心疼", "抱抱"],
+      "tone": "soft",
+      "entries": [
+        { "text": "(っ˘ω˘ς )", "tone": "soft" },
+        { "text": "(´･ω･)ﾉ(._.｀)", "tone": "soft" },
+        { "text": "( ´･･)ﾉ(._.｀)", "tone": "soft" },
+        { "text": "(うωう)", "tone": "soft" },
+        { "text": "(｡･ω･｡)ﾉ♡", "tone": "soft" },
+        { "text": "(づ｡◕‿‿◕｡)づ", "tone": "soft" },
+        { "text": "(,,>﹏<,,)", "tone": "soft" }
+      ]
+    },
+    "proud": {
+      "label": "得意 / 自信",
+      "aliases": ["得意", "自信", "厉害", "搞定"],
+      "tone": "deadpan",
+      "entries": [
+        { "text": "(￣ω￣)", "tone": "deadpan" },
+        { "text": "(⌐■_■)", "tone": "deadpan" },
+        { "text": "(￣ω￣)v", "tone": "deadpan" },
+        { "text": "(￣▽￣)~*", "tone": "deadpan" },
+        { "text": "(￣ー￣)ﾆﾔﾘ", "tone": "deadpan" },
+        { "text": "(・ω・)✧", "tone": "bright" },
+        { "text": "(๑•̀ㅂ•́)9", "tone": "deadpan" }
+      ]
+    },
+    "tired": {
+      "label": "疲惫 / 摆烂",
+      "aliases": ["累", "疲惫", "摆烂", "没劲", "困"],
+      "tone": "low",
+      "entries": [
+        { "text": "_(:3 」∠)_", "tone": "low" },
+        { "text": "(´-ω-｀)", "tone": "low" },
+        { "text": "(－ω－)", "tone": "low" },
+        { "text": "(´。＿。｀)", "tone": "low" },
+        { "text": "_(┐「ε:)_", "tone": "low" },
+        { "text": "(￣o￣) . z Z", "tone": "low" }
+      ]
+    },
+    "tsundere": {
+      "label": "傲娇",
+      "aliases": ["傲娇", "嘴硬", "别扭"],
+      "tone": "deadpan",
+      "entries": [
+        { "text": "(￣^￣)ゞ", "tone": "deadpan" },
+        { "text": "(￣ε￣)", "tone": "deadpan" },
+        { "text": "(；￣Д￣)", "tone": "deadpan" },
+        { "text": "(￣◇￣;)", "tone": "deadpan" },
+        { "text": "哼(￣ω￣)", "tone": "deadpan" }
+      ]
+    },
+    "bye": {
+      "label": "告别 / 收尾",
+      "aliases": ["告别", "再见", "收工", "拜拜"],
+      "tone": "bright",
+      "entries": [
+        { "text": "(￣▽￣)ノ", "tone": "bright" },
+        { "text": "( ´ ▽ ｀)ノ", "tone": "soft" },
+        { "text": "(・ω・)ﾉ", "tone": "bright" },
+        { "text": "(｡･ω･)ﾉﾞ", "tone": "soft" },
+        { "text": "ヾ(￣▽￣)Bye~Bye~", "tone": "bright" },
+        { "text": "(ﾉ´ヮ｀)ﾉ*:･ﾟ✧", "tone": "bright" }
+      ]
+    }
+  }
+}
