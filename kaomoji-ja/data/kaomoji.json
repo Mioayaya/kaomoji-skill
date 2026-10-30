@@ -1,0 +1,248 @@
+{
+  "version": 1,
+  "lang": "ja",
+  "note": "プログラムから利用する場合用。人が読むときは SKILL.md か reference/kaomoji.md を使う。tone: bright 明るい / soft やわらかい / strong 感情が強い / deadpan クール・ドヤ / low 省エネ。net: true は掲示板ノリ（初対面では距離が近すぎる）",
+  "moods": {
+    "happy": {
+      "label": "うれしい",
+      "aliases": ["嬉しい", "楽しい", "やった", "最高"],
+      "entries": [
+        { "text": "(≧▽≦)", "tone": "strong" },
+        { "text": "(๑>ᴗ<๑)", "tone": "bright" },
+        { "text": "(´｡• ᵕ •｡｀)", "tone": "soft" },
+        { "text": "(*´▽｀*)", "tone": "soft" },
+        { "text": "o(^▽^)o", "tone": "bright" },
+        { "text": "ヾ(＾∇＾)ﾉ", "tone": "bright" },
+        { "text": "(●ˊωˋ●)", "tone": "soft" },
+        { "text": "ヽ(・∀・)ﾉ", "tone": "bright" },
+        { "text": "(๑˃ᴗ˂)ﻭ", "tone": "bright" },
+        { "text": "٩(◕‿◕｡)۶", "tone": "bright" },
+        { "text": "(≧∇≦)ﾉ", "tone": "strong" },
+        { "text": "(｡◕‿◕｡)", "tone": "soft" },
+        { "text": "(*^_^*)", "tone": "soft" },
+        { "text": "(´∀｀)♡", "tone": "soft" }
+      ]
+    },
+    "agree": {
+      "label": "賛成 / やる気",
+      "aliases": ["賛成", "了解", "頑張る", "応援", "いいね"],
+      "entries": [
+        { "text": "(๑•̀ㅂ•́)و✧", "tone": "strong" },
+        { "text": "(ง •̀_•́)ง", "tone": "strong" },
+        { "text": "٩(ˊᗜˋ*)و", "tone": "bright" },
+        { "text": "(•̀ᴗ•́)و ̑̑", "tone": "strong" },
+        { "text": "(๑•̀ㅁ•́ฅ)", "tone": "bright" },
+        { "text": "(￣^￣)ゞ", "tone": "deadpan" },
+        { "text": "(￣ω￣)/", "tone": "bright" },
+        { "text": "o(≧o≦)o", "tone": "strong" },
+        { "text": "ᕦ(ò_óˇ)ᕤ", "tone": "strong" },
+        { "text": "٩(๑•̀ω•́๑)۶", "tone": "strong" },
+        { "text": "(๑و•̀ω•́)و", "tone": "strong" },
+        { "text": "(｀・ω・´)ｷﾘｯ", "tone": "deadpan" }
+      ]
+    },
+    "smile": {
+      "label": "やわらかい笑顔",
+      "aliases": ["笑顔", "挨拶", "こんにちは", "はい"],
+      "entries": [
+        { "text": "(＾▽＾)", "tone": "soft" },
+        { "text": "(^-^)", "tone": "soft" },
+        { "text": "(´▽｀ʃ♡ƪ)", "tone": "soft" },
+        { "text": "( ˘▽˘)っ", "tone": "soft" },
+        { "text": "(｡･ω･｡)ﾉ", "tone": "soft" },
+        { "text": "(*ﾟ▽ﾟ)ノ", "tone": "bright" },
+        { "text": "(　＾∀＾)", "tone": "soft" },
+        { "text": "(◍•ᴗ•◍)", "tone": "soft" },
+        { "text": "(u‿ฺu✿ฺ)", "tone": "soft" },
+        { "text": "(●'◡'●)", "tone": "soft" },
+        { "text": "(´ω｀)", "tone": "soft" }
+      ]
+    },
+    "sad": {
+      "label": "しょんぼり / 落ち込み",
+      "aliases": ["悲しい", "落ち込む", "泣きたい", "つらい", "絶望"],
+      "entries": [
+        { "text": "(´・ω・｀)", "tone": "low" },
+        { "text": "(´；ω；｀)", "tone": "strong" },
+        { "text": "(>_<)", "tone": "strong" },
+        { "text": "(╯︵╰,)", "tone": "strong" },
+        { "text": "(；ω；)", "tone": "strong" },
+        { "text": "(´;ω;｀)", "tone": "strong" },
+        { "text": "(´・_・｀)", "tone": "low" },
+        { "text": "(；´д｀)", "tone": "soft" },
+        { "text": "(´-ω-｀)", "tone": "low" },
+        { "text": "(っω･`。)", "tone": "soft" }
+      ]
+    },
+    "annoyed": {
+      "label": "怒り / ツッコミ",
+      "aliases": ["怒り", "ツッコミ", "ムカつく", "意味不明"],
+      "entries": [
+        { "text": "(＃｀д´)ﾉ", "tone": "strong" },
+        { "text": "(╬￣皿￣)", "tone": "strong" },
+        { "text": "(￣ヘ￣)", "tone": "deadpan" },
+        { "text": "(눈_눈)", "tone": "deadpan" },
+        { "text": "(ㆆ_ㆆ)", "tone": "deadpan" },
+        { "text": "(；一_一)", "tone": "low" },
+        { "text": "(￣Д￣)ﾉ", "tone": "strong" },
+        { "text": "(ﾟДﾟ)ﾊｧ?", "tone": "strong" }
+      ]
+    },
+    "shrug": {
+      "label": "どうしようもない / やれやれ",
+      "aliases": ["仕方ない", "無理", "やれやれ", "どうぞ"],
+      "entries": [
+        { "text": "(´･ω･｀)", "tone": "low" },
+        { "text": "╮(╯▽╰)╭", "tone": "bright" },
+        { "text": "( ¯_(ツ)_/¯ )", "tone": "bright" },
+        { "text": "(´□｀)", "tone": "low" },
+        { "text": "(－_－)", "tone": "low" },
+        { "text": "( ˘･з･)", "tone": "low" },
+        { "text": "(´･_･｀)", "tone": "low" },
+        { "text": "(・_・;)", "tone": "bright" },
+        { "text": "( ﾟдﾟ)ﾎﾟｶｰﾝ", "tone": "low" }
+      ]
+    },
+    "awkward": {
+      "label": "気まずい / ごめん",
+      "aliases": ["ごめん", "すみません", "申し訳", "ミス", "気まずい"],
+      "entries": [
+        { "text": "(；´д｀)ゞ", "tone": "soft" },
+        { "text": "(＞﹏＜)", "tone": "strong" },
+        { "text": "(´-ω-｀)", "tone": "low" },
+        { "text": "(⌒_⌒;)", "tone": "bright" },
+        { "text": "(ーー;)", "tone": "bright" },
+        { "text": "(￣▽￣)ゞ", "tone": "bright" },
+        { "text": "(,,•́ . •̀,,)", "tone": "soft" },
+        { "text": "m(_ _)m", "tone": "strong" },
+        { "text": "(;´Д｀)", "tone": "strong" }
+      ]
+    },
+    "thinking": {
+      "label": "考え中 / はて",
+      "aliases": ["考える", "疑問", "わからない", "なんで", "迷う"],
+      "entries": [
+        { "text": "(・_・?)", "tone": "bright" },
+        { "text": "(￣～￣)", "tone": "bright" },
+        { "text": "(・ω・)ノ", "tone": "bright" },
+        { "text": "(・へ・)", "tone": "bright" },
+        { "text": "(ﾟДﾟ≡ﾟДﾟ)?", "tone": "strong" },
+        { "text": "(°ロ°)", "tone": "strong" },
+        { "text": "(・・;)ゞ", "tone": "bright" },
+        { "text": "(￣ー￣)｡oO", "tone": "deadpan" },
+        { "text": "(´・ω・)？", "tone": "low" }
+      ]
+    },
+    "shy": {
+      "label": "照れ",
+      "aliases": ["照れる", "恥ずかしい", "顔を隠す"],
+      "entries": [
+        { "text": "(*/ω＼*)", "tone": "strong" },
+        { "text": "(〃ω〃)", "tone": "soft" },
+        { "text": "(*ﾉωﾉ)", "tone": "strong" },
+        { "text": "(⁄ ⁄•⁄ω⁄•⁄ ⁄)", "tone": "strong" },
+        { "text": "(っ˘ω˘ς )", "tone": "soft" },
+        { "text": "(〃￣ω￣〃)", "tone": "soft" },
+        { "text": "(>///<)", "tone": "strong" },
+        { "text": "(*´ｪ｀*)", "tone": "soft" }
+      ]
+    },
+    "surprised": {
+      "label": "びっくり",
+      "aliases": ["驚き", "びっくり", "まさか", "信じられない"],
+      "entries": [
+        { "text": "(°Д°)", "tone": "strong" },
+        { "text": "(⊙_⊙)", "tone": "bright" },
+        { "text": "(⊙o⊙)", "tone": "bright" },
+        { "text": "Σ(っ °Д °;)っ", "tone": "strong" },
+        { "text": "(；ﾟДﾟ)", "tone": "strong" },
+        { "text": "w(°ｏ°)w", "tone": "strong" },
+        { "text": "(ﾟロﾟ)", "tone": "strong" },
+        { "text": "((((；ﾟДﾟ))))", "tone": "strong", "caution": true },
+        { "text": "Σ(ﾟдﾟlll)", "tone": "strong" }
+      ]
+    },
+    "comfort": {
+      "label": "なぐさめ",
+      "aliases": ["なぐさめ", "共感", "わかる", "大丈夫", "お疲れ"],
+      "entries": [
+        { "text": "(っ˘ω˘ς )", "tone": "soft" },
+        { "text": "(´･ω･)ﾉ(._.｀)", "tone": "soft" },
+        { "text": "( ´･･)ﾉ(._.｀)", "tone": "soft" },
+        { "text": "(うωう)", "tone": "soft" },
+        { "text": "(｡･ω･｡)ﾉ♡", "tone": "soft" },
+        { "text": "(づ｡◕‿‿◕｡)づ", "tone": "soft" },
+        { "text": "(,,>﹏<,,)", "tone": "soft" }
+      ]
+    },
+    "smug": {
+      "label": "ドヤ顔 / 得意",
+      "aliases": ["ドヤ", "得意", "やった", "できた"],
+      "entries": [
+        { "text": "(￣ω￣)", "tone": "deadpan" },
+        { "text": "(⌐■_■)", "tone": "deadpan" },
+        { "text": "(￣ω￣)v", "tone": "deadpan" },
+        { "text": "(￣▽￣)~*", "tone": "deadpan" },
+        { "text": "(￣ー￣)ﾆﾔﾘ", "tone": "deadpan" },
+        { "text": "(・ω・)✧", "tone": "bright" },
+        { "text": "(￣ー+￣)", "tone": "deadpan" },
+        { "text": "(｀・ω・´)ｼｬｷｰﾝ", "tone": "deadpan" }
+      ]
+    },
+    "tired": {
+      "label": "疲れた / 省エネ",
+      "aliases": ["疲れ", "眠い", "もう無理", "だるい", "省エネ"],
+      "entries": [
+        { "text": "_(:3 」∠)_", "tone": "low" },
+        { "text": "(´-ω-｀)", "tone": "low" },
+        { "text": "(－ω－)", "tone": "low" },
+        { "text": "(´。＿。｀)", "tone": "low" },
+        { "text": "_(┐「ε:)_", "tone": "low" },
+        { "text": "(￣o￣) . z Z", "tone": "low" },
+        { "text": "( ˘ω˘ )ｽﾔｧ", "tone": "low" }
+      ]
+    },
+    "tsundere": {
+      "label": "ツンデレ",
+      "aliases": ["ツンデレ", "素直じゃない", "照れ隠し"],
+      "entries": [
+        { "text": "(￣^￣)ゞ", "tone": "deadpan" },
+        { "text": "(￣ε￣)", "tone": "deadpan" },
+        { "text": "(；￣Д￣)", "tone": "deadpan" },
+        { "text": "(￣◇￣;)", "tone": "deadpan" },
+        { "text": "哼(￣ω￣)", "tone": "deadpan" },
+        { "text": "(｀ω´)", "tone": "strong" }
+      ]
+    },
+    "bye": {
+      "label": "締め / またね",
+      "aliases": ["またね", "終わり", "お疲れさま", "バイバイ"],
+      "entries": [
+        { "text": "(￣▽￣)ノ", "tone": "bright" },
+        { "text": "( ´ ▽ ｀)ノ", "tone": "soft" },
+        { "text": "(・ω・)ﾉ", "tone": "bright" },
+        { "text": "(｡･ω･)ﾉﾞ", "tone": "soft" },
+        { "text": "ヾ(￣▽￣)Bye~Bye~", "tone": "bright" },
+        { "text": "(ﾉ´ヮ｀)ﾉ*:･ﾟ✧", "tone": "bright" },
+        { "text": "(´ω`)ﾉ", "tone": "soft" }
+      ]
+    },
+    "net": {
+      "label": "ネット掲示板ノリ",
+      "aliases": ["2ch", "掲示板", "なんJ", "ネット"],
+      "tone": "net",
+      "notes": "初対面では距離が近すぎる。相手がすでにこのノリのときだけ使う。",
+      "entries": [
+        { "text": "(ﾟ∀ﾟ)", "tone": "bright", "net": true },
+        { "text": "( ＾ω＾)", "tone": "bright", "net": true },
+        { "text": "(ﾟДﾟ)", "tone": "strong", "net": true },
+        { "text": "(´∀｀*)", "tone": "bright", "net": true },
+        { "text": "(｀・ω・´)", "tone": "deadpan", "net": true },
+        { "text": "( ﾟ∀ﾟ)ｱﾊﾊ", "tone": "bright", "net": true },
+        { "text": "(´～｀)", "tone": "bright", "net": true },
+        { "text": "(ﾉ∀`)ｱﾁｬｰ", "tone": "bright", "net": true },
+        { "text": "(´・ω・｀)ｼｮﾎﾞｰﾝ", "tone": "low", "net": true }
+      ]
+    }
+  }
+}
