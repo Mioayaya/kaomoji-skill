@@ -1,0 +1,221 @@
+{
+  "version": 1,
+  "lang": "en",
+  "note": "For programmatic use. Humans should read SKILL.md or reference/kaomoji.md. style: kaomoji (default) / ascii (fallback for surfaces that cannot render wide chars) / emoji (only if the user already uses emoji). tone: good  upbeat, soft  gentle, strong  big emotion, deadpan  dry, low  low-energy",
+  "moods": {
+    "happy": {
+      "label": "Happy",
+      "aliases": ["glad", "great", "yay", "excited", "delighted"],
+      "entries": [
+        { "text": "(≧▽≦)", "style": "kaomoji", "tone": "strong" },
+        { "text": "(๑>ᴗ<๑)", "style": "kaomoji", "tone": "good" },
+        { "text": "(´｡• ᵕ •｡｀)", "style": "kaomoji", "tone": "soft" },
+        { "text": "(*´▽｀*)", "style": "kaomoji", "tone": "soft" },
+        { "text": "o(^▽^)o", "style": "kaomoji", "tone": "good" },
+        { "text": "ヾ(＾∇＾)ﾉ", "style": "kaomoji", "tone": "good" },
+        { "text": "(●ˊωˋ●)", "style": "kaomoji", "tone": "soft" },
+        { "text": "ヽ(・∀・)ﾉ", "style": "kaomoji", "tone": "good" },
+        { "text": "(๑˃ᴗ˂)ﻭ", "style": "kaomoji", "tone": "good" },
+        { "text": "٩(◕‿◕｡)۶", "style": "kaomoji", "tone": "good" },
+        { "text": "(≧∇≦)ﾉ", "style": "kaomoji", "tone": "strong" },
+        { "text": "(｡◕‿◕｡)", "style": "kaomoji", "tone": "soft" },
+        { "text": "(＝⌒▽⌒＝)", "style": "kaomoji", "tone": "good" },
+        { "text": "(´∀｀)♡", "style": "kaomoji", "tone": "soft" }
+      ]
+    },
+    "agree": {
+      "label": "Agree / hype",
+      "aliases": ["yes", "let's go", "encourage", "you got this", "good job"],
+      "entries": [
+        { "text": "(๑•̀ㅂ•́)و✧", "style": "kaomoji", "tone": "strong" },
+        { "text": "(ง •̀_•́)ง", "style": "kaomoji", "tone": "strong" },
+        { "text": "٩(ˊᗜˋ*)و", "style": "kaomoji", "tone": "good" },
+        { "text": "(•̀ᴗ•́)و ̑̑", "style": "kaomoji", "tone": "strong" },
+        { "text": "(๑•̀ㅁ•́ฅ)", "style": "kaomoji", "tone": "good" },
+        { "text": "(￣^￣)ゞ", "style": "kaomoji", "tone": "deadpan" },
+        { "text": "(￣ω￣)/", "style": "kaomoji", "tone": "good" },
+        { "text": "o(≧o≦)o", "style": "kaomoji", "tone": "strong" },
+        { "text": "ᕦ(ò_óˇ)ᕤ", "style": "kaomoji", "tone": "strong" },
+        { "text": "٩(๑•̀ω•́๑)۶", "style": "kaomoji", "tone": "strong" },
+        { "text": "(๑و•̀ω•́)و", "style": "kaomoji", "tone": "strong" }
+      ]
+    },
+    "smile": {
+      "label": "Warm smile",
+      "aliases": ["friendly", "greeting", "okay", "nice"],
+      "entries": [
+        { "text": "(＾▽＾)", "style": "kaomoji", "tone": "soft" },
+        { "text": "(^-^)", "style": "kaomoji", "tone": "soft" },
+        { "text": "(´▽｀ʃ♡ƪ)", "style": "kaomoji", "tone": "soft" },
+        { "text": "( ˘▽˘)っ", "style": "kaomoji", "tone": "soft" },
+        { "text": "(｡･ω･｡)ﾉ", "style": "kaomoji", "tone": "soft" },
+        { "text": "(*ﾟ▽ﾟ)ノ", "style": "kaomoji", "tone": "good" },
+        { "text": "(　＾∀＾)", "style": "kaomoji", "tone": "soft" },
+        { "text": "(◍•ᴗ•◍)", "style": "kaomoji", "tone": "soft" },
+        { "text": "(u‿ฺu✿ฺ)", "style": "kaomoji", "tone": "soft" },
+        { "text": "(●'◡'●)", "style": "kaomoji", "tone": "soft" }
+      ]
+    },
+    "sad": {
+      "label": "Sad / discouraged",
+      "aliases": ["down", "crying", "upset", "heartbroken", "hopeless"],
+      "entries": [
+        { "text": "(╥﹏╥)", "style": "kaomoji", "tone": "strong" },
+        { "text": "(｡•́︿•̀｡)", "style": "kaomoji", "tone": "low" },
+        { "text": "(>_<)", "style": "kaomoji", "tone": "strong" },
+        { "text": "(╯︵╰,)", "style": "kaomoji", "tone": "strong" },
+        { "text": "(>_<｡)", "style": "kaomoji", "tone": "strong" },
+        { "text": "(´;ω;｀)", "style": "kaomoji", "tone": "strong" },
+        { "text": "(个_个)", "style": "kaomoji", "tone": "low" },
+        { "text": "(｡╯︵╰｡)", "style": "kaomoji", "tone": "strong" },
+        { "text": "(T_T)", "style": "kaomoji", "tone": "strong" },
+        { "text": "(ㄒoㄒ)", "style": "kaomoji", "tone": "strong" }
+      ]
+    },
+    "annoyed": {
+      "label": "Annoyed / snark",
+      "aliases": ["angry", "snark", "ugh", "side eye"],
+      "entries": [
+        { "text": "(¬_¬)", "style": "kaomoji", "tone": "deadpan" },
+        { "text": "(￣ヘ￣)", "style": "kaomoji", "tone": "deadpan" },
+        { "text": "(눈_눈)", "style": "kaomoji", "tone": "deadpan" },
+        { "text": "(ㆆ_ㆆ)", "style": "kaomoji", "tone": "deadpan" },
+        { "text": "(＃￣ω￣)", "style": "kaomoji", "tone": "strong" },
+        { "text": "(╬￣皿￣)", "style": "kaomoji", "tone": "strong" },
+        { "text": "(；一_一)", "style": "kaomoji", "tone": "low" },
+        { "text": "(￣^￣)", "style": "kaomoji", "tone": "deadpan" }
+      ]
+    },
+    "shrug": {
+      "label": "Shrug / helpless",
+      "aliases": ["whatever", "no idea", "can't help", "oh well"],
+      "entries": [
+        { "text": "(´･ω･｀)", "style": "kaomoji", "tone": "low" },
+        { "text": "╮(╯▽╰)╭", "style": "kaomoji", "tone": "good" },
+        { "text": "( ¯_(ツ)_/¯ )", "style": "kaomoji", "tone": "good" },
+        { "text": "(´□｀)", "style": "kaomoji", "tone": "low" },
+        { "text": "(－_－)", "style": "kaomoji", "tone": "low" },
+        { "text": "( ˘･з･)", "style": "kaomoji", "tone": "low" },
+        { "text": "(´･_･｀)", "style": "kaomoji", "tone": "low" },
+        { "text": "(・_・;)", "style": "kaomoji", "tone": "good" }
+      ]
+    },
+    "awkward": {
+      "label": "Awkward / sorry",
+      "aliases": ["oops", "my bad", "sorry", "embarrassed"],
+      "entries": [
+        { "text": "(；´д｀)ゞ", "style": "kaomoji", "tone": "good" },
+        { "text": "(＞﹏＜)", "style": "kaomoji", "tone": "strong" },
+        { "text": "(´-ω-｀)", "style": "kaomoji", "tone": "low" },
+        { "text": "(⌒_⌒;)", "style": "kaomoji", "tone": "good" },
+        { "text": "(ーー;)", "style": "kaomoji", "tone": "good" },
+        { "text": "(￣▽￣)ゞ", "style": "kaomoji", "tone": "good" },
+        { "text": "(,,•́ . •̀,,)", "style": "kaomoji", "tone": "soft" },
+        { "text": "m(_ _)m", "style": "kaomoji", "tone": "strong" }
+      ]
+    },
+    "thinking": {
+      "label": "Thinking / puzzled",
+      "aliases": ["huh", "confused", "not sure", "why"],
+      "entries": [
+        { "text": "(・_・?)", "style": "kaomoji", "tone": "good" },
+        { "text": "(￣～￣)", "style": "kaomoji", "tone": "good" },
+        { "text": "(・ω・)ノ", "style": "kaomoji", "tone": "good" },
+        { "text": "(・へ・)", "style": "kaomoji", "tone": "good" },
+        { "text": "(ﾟДﾟ≡ﾟДﾟ)?", "style": "kaomoji", "tone": "strong" },
+        { "text": "(°ロ°)", "style": "kaomoji", "tone": "strong" },
+        { "text": "(・・;)ゞ", "style": "kaomoji", "tone": "good" },
+        { "text": "(￣ー￣)｡oO", "style": "kaomoji", "tone": "deadpan" }
+      ]
+    },
+    "shy": {
+      "label": "Shy",
+      "aliases": ["flustered", "blushing", "hiding"],
+      "entries": [
+        { "text": "(*/ω＼*)", "style": "kaomoji", "tone": "strong" },
+        { "text": "(〃ω〃)", "style": "kaomoji", "tone": "soft" },
+        { "text": "(*ﾉωﾉ)", "style": "kaomoji", "tone": "strong" },
+        { "text": "(⁄ ⁄•⁄ω⁄•⁄ ⁄)", "style": "kaomoji", "tone": "strong" },
+        { "text": "(っ˘ω˘ς )", "style": "kaomoji", "tone": "soft" },
+        { "text": "(〃￣ω￣〃)", "style": "kaomoji", "tone": "soft" },
+        { "text": "(>///<)", "style": "kaomoji", "tone": "strong" },
+        { "text": "(*´ｪ｀*)", "style": "kaomoji", "tone": "soft" }
+      ]
+    },
+    "surprised": {
+      "label": "Surprised",
+      "aliases": ["whoa", "shocked", "unexpected", "no way"],
+      "entries": [
+        { "text": "(°Д°)", "style": "kaomoji", "tone": "strong" },
+        { "text": "(⊙_⊙)", "style": "kaomoji", "tone": "good" },
+        { "text": "(⊙o⊙)", "style": "kaomoji", "tone": "good" },
+        { "text": "Σ(っ °Д °;)っ", "style": "kaomoji", "tone": "strong" },
+        { "text": "(；ﾟДﾟ)", "style": "kaomoji", "tone": "strong" },
+        { "text": "w(°ｏ°)w", "style": "kaomoji", "tone": "strong" },
+        { "text": "(ﾟロﾟ)", "style": "kaomoji", "tone": "strong" },
+        { "text": "((((；ﾟДﾟ))))", "style": "kaomoji", "tone": "strong", "caution": true }
+      ]
+    },
+    "comfort": {
+      "label": "Comforting",
+      "aliases": ["there there", "hugs", "i get it", "sympathy"],
+      "entries": [
+        { "text": "(っ˘ω˘ς )", "style": "kaomoji", "tone": "soft" },
+        { "text": "(´･ω･)ﾉ(._.｀)", "style": "kaomoji", "tone": "soft" },
+        { "text": "( ´･･)ﾉ(._.｀)", "style": "kaomoji", "tone": "soft" },
+        { "text": "(うωう)", "style": "kaomoji", "tone": "soft" },
+        { "text": "(｡･ω･｡)ﾉ♡", "style": "kaomoji", "tone": "soft" },
+        { "text": "(づ｡◕‿‿◕｡)づ", "style": "kaomoji", "tone": "soft" },
+        { "text": "(,,>﹏<,,)", "style": "kaomoji", "tone": "soft" }
+      ]
+    },
+    "smug": {
+      "label": "Smug / confident",
+      "aliases": ["nailed it", "pro", "cool", "done"],
+      "entries": [
+        { "text": "(￣ω￣)", "style": "kaomoji", "tone": "deadpan" },
+        { "text": "(⌐■_■)", "style": "kaomoji", "tone": "deadpan" },
+        { "text": "(￣ω￣)v", "style": "kaomoji", "tone": "deadpan" },
+        { "text": "(￣▽￣)~*", "style": "kaomoji", "tone": "deadpan" },
+        { "text": "(￣ー￣)ﾆﾔﾘ", "style": "kaomoji", "tone": "deadpan" },
+        { "text": "(・ω・)✧", "style": "kaomoji", "tone": "good" },
+        { "text": "ᕕ( ᐛ )ᕗ", "style": "kaomoji", "tone": "good" }
+      ]
+    },
+    "tired": {
+      "label": "Tired / done",
+      "aliases": ["exhausted", "sleepy", "burned out", "giving up"],
+      "entries": [
+        { "text": "_(:3 」∠)_", "style": "kaomoji", "tone": "low" },
+        { "text": "(´-ω-｀)", "style": "kaomoji", "tone": "low" },
+        { "text": "(－ω－)", "style": "kaomoji", "tone": "low" },
+        { "text": "(´。＿。｀)", "style": "kaomoji", "tone": "low" },
+        { "text": "_(┐「ε:)_", "style": "kaomoji", "tone": "low" },
+        { "text": "(￣o￣) . z Z", "style": "kaomoji", "tone": "low" }
+      ]
+    },
+    "tsundere": {
+      "label": "Tsundere",
+      "aliases": ["tsundere", "playing it cool", "grumpy but soft"],
+      "entries": [
+        { "text": "(￣^￣)ゞ", "style": "kaomoji", "tone": "deadpan" },
+        { "text": "(￣ε￣)", "style": "kaomoji", "tone": "deadpan" },
+        { "text": "(；￣Д￣)", "style": "kaomoji", "tone": "deadpan" },
+        { "text": "(￣◇￣;)", "style": "kaomoji", "tone": "deadpan" },
+        { "text": "哼(￣ω￣)", "style": "kaomoji", "tone": "deadpan" }
+      ]
+    },
+    "bye": {
+      "label": "Signing off",
+      "aliases": ["bye", "later", "done for now", "see ya"],
+      "entries": [
+        { "text": "(￣▽￣)ノ", "style": "kaomoji", "tone": "good" },
+        { "text": "( ´ ▽ ｀)ノ", "style": "kaomoji", "tone": "soft" },
+        { "text": "(・ω・)ﾉ", "style": "kaomoji", "tone": "good" },
+        { "text": "(｡･ω･)ﾉﾞ", "style": "kaomoji", "tone": "soft" },
+        { "text": "ヾ(￣▽￣)Bye~Bye~", "style": "kaomoji", "tone": "good" },
+        { "text": "(ﾉ´ヮ｀)ﾉ*:･ﾟ✧", "style": "kaomoji", "tone": "good" }
+      ]
+    }
+  }
+}
