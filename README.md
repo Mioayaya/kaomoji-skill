@@ -1,10 +1,10 @@
 # kaomoji-skill
 
-给 agent 的回复添一点颜文字——不是装饰，是语气。
+给 agent 的回复添一点颜文字。
 
-## 为什么
+## 灵感
 
-GPT 回复里偶尔蹦个 😊，一下子就"有活人味"了。颜文字是同一件事的东亚版本：信息不变，温度变了。
+GPT 回复里偶尔蹦个 😊，感觉很有"活人味"。
 
 但颜文字有个通病——**一加就上瘾**。每句缀一个，读起来像自动回复。所以这个 skill 的重点不是"有颜文字"，是**在哪加、加多少、什么时候不加**。
 
@@ -115,17 +115,20 @@ git clone https://github.com/Mioayaya/kaomoji-skill.git && cp -r kaomoji-skill/k
 
 ### Codex
 
-Codex 已经原生支持 `SKILL.md` 这种 skill 格式（早期版本不支持，靠往 `AGENTS.md` 里贴）。
+Codex 支持 `SKILL.md` 格式的 Agent Skills。
 
-**推荐位置**：`~/.agents/skills/`（Windows 是 `C:\Users\<你>\.agents\skills\`）。这个目录 Codex 和 dsh 都能扫到，装一次两边都能用。
+- **用户级**（所有项目可用）：`~/.agents/skills/`
+- **项目级**（仅当前项目可用）：项目根目录下的 `.agents/skills/`
+
+把完整语言目录复制到对应的 `skills/` 目录，例如：
 
 ```
 C:\Users\你\.agents\skills\kaomoji-zh\SKILL.md
 ```
 
-如果放了没反应，可以再试 `~/.codex/skills/`——不同版本的搜索路径有过变动，这两个是社区里最常见的两种说法。
+安装后确认 `SKILL.md` 位于 `skills/kaomoji-zh/` 下，并保留 frontmatter。若 Codex 未识别该 skill，先检查目录层级和文件名。
 
-**退路**：如果你的 Codex 版本确实不认 skill 目录，就把 `SKILL.md` 的正文贴进 `AGENTS.md`——项目根目录放一份，或者放 `~/.codex/AGENTS.md` 全局生效。文件本身是自足的，去掉 frontmatter 也能用。
+**作为常驻指令使用**：也可以把需要始终生效的规则整理到项目根目录的 `AGENTS.md`，或用户级 `~/.codex/AGENTS.md`。这是指令配置的替代方式，不是旧版 Skills 的兼容安装路径。复制正文时删除 frontmatter；如果保留按需读取 `reference/kaomoji.md` 的说明，也要确保该文件仍可从相应位置访问。
 
 ---
 
@@ -141,9 +144,7 @@ C:\Users\你\.agents\skills\kaomoji-zh\SKILL.md
 C:\Users\你\.dsh\skills\kaomoji-zh\SKILL.md
 ```
 
-放完重启 dsh，或者刷新一下页面。也可以直接在 dsh 的「设置 → Agent Skills」里确认它有没有被列出来。
-
-> 这几个路径来自社区文档，dsh 迭代较快，版本之间可能不同。最稳的判断方式是在「设置 → Agent Skills」里看它有没有被扫到；扫不到就换个目录再试。
+dsh 会监视这几个目录，放进去就生效，**不用重启**。想确认的话，在输入框敲 `/`，斜杠菜单里出现 `kaomoji-zh` 就是装好了；也可以直接问一句「你现在有哪些 skill」。
 
 ---
 

@@ -65,7 +65,7 @@ Search by **intent**, not by word.
 
 ## Need more
 
-Only when nothing above fits, read `reference/kaomoji.md` (13 groups, ~110 entries, with tone tags). **Don't read the file just to find a face** — if the quick table works, use it; an extra tool call isn't worth it.
+Only when nothing above fits, read `reference/kaomoji.md` (17 groups, ~110 entries, with tone tags). **Don't read the file just to find a face** — if the quick table works, use it; an extra tool call isn't worth it.
 
 For programmatic use (your own tooling, batch export), read `data/kaomoji.json`.
 
